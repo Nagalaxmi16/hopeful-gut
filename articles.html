@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Articles - Hopeful Gut</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <h1>🌿 Hopeful Gut</h1>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav id="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="articles.html" class="active-nav">Articles</a></li>
+            <li><a href="about.html">About IBS</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container articles">
+      <h2 style="text-align: center; color: #2d6a4f">All Articles</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <img src="ibsfood.jpg" loading="lazy" alt="IBS Diet" />
+          <h4>Top IBS-Friendly Foods to Add Today</h4>
+          <p>
+            Discover gut-soothing ingredients that help you feel better every
+            day.
+          </p>
+          <a href="ibs-foods.html">Read more →</a>
+        </div>
+
+        <div class="card">
+          <img src="mindfulness.jpg" loading="lazy" alt="Mindfulness" />
+          <h4>Mindfulness for Gut Health</h4>
+          <p>
+            How calming your mind can ease IBS symptoms naturally and gently.
+          </p>
+          <a href="mindfulness.html">Read more →</a>
+        </div>
+
+        <div class="card">
+          <img src="lifestyle.jpg" loading="lazy" alt="Lifestyle" />
+          <h4>Simple Lifestyle Tweaks for IBS Relief</h4>
+          <p>
+            Small changes, big results. Tips to feel more in control every day.
+          </p>
+          <a href="lifestyle.html">Read more →</a>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2025 Hopeful Gut. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        const navbar = document.getElementById("navbar");
+        navbar.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

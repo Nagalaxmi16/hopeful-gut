@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Hopeful Gut</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <h1>🌿 Hopeful Gut</h1>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav id="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="about.html">About IBS</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container blog-post">
+      <h2>Contact Us</h2>
+      <p class="post-meta">We’d love to hear from you</p>
+      <p>
+        Whether you have a question, feedback, or just want to share your story,
+        feel free to reach out. Your voice matters to us!
+      </p>
+
+      <form action="#" method="POST" style="margin-top: 20px">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea
+        ><br /><br />
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2025 Hopeful Gut. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("navbar").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

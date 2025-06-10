@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About IBS - Hopeful Gut</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-container">
+        <h1>🌿 Hopeful Gut</h1>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav id="navbar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="about.html">About IBS</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container blog-post">
+      <h2>Understanding IBS (Irritable Bowel Syndrome)</h2>
+      <p class="post-meta">Empowering yourself with knowledge</p>
+      <img
+        src="ibsabout.jpg"
+        loading="lazy"
+        alt="IBS Awareness"
+        class="article-image"
+      />
+
+      <p>
+        Irritable Bowel Syndrome (IBS) is a common digestive disorder affecting
+        the large intestine. It can cause cramping, bloating, gas, and changes
+        in bowel habits such as diarrhea or constipation—or both.
+      </p>
+
+      <h3>🌱 What Causes IBS?</h3>
+      <p>The exact cause is still unknown, but IBS may be linked to:</p>
+      <ul>
+        <li>Gut-brain axis imbalance</li>
+        <li>Food intolerances or sensitivities</li>
+        <li>Stress and anxiety</li>
+        <li>Changes in gut bacteria</li>
+      </ul>
+
+      <h3>💡 Common Symptoms</h3>
+      <ul>
+        <li>Abdominal pain or cramping</li>
+        <li>Bloating and gas</li>
+        <li>Diarrhea, constipation, or both</li>
+        <li>Mucus in the stool</li>
+      </ul>
+
+      <h3>🌟 Managing IBS</h3>
+      <p>While IBS has no cure, it can be managed through:</p>
+      <ul>
+        <li>Diet changes (low-FODMAP diet)</li>
+        <li>Mindfulness and stress reduction</li>
+        <li>Gentle movement and sleep hygiene</li>
+        <li>Keeping a symptom and food journal</li>
+      </ul>
+
+      <div class="tips">
+        <h3>💖 You’re Not Alone</h3>
+        <p>
+          Millions live with IBS. Your journey toward healing is unique—and you
+          deserve support, understanding, and hope.
+        </p>
+      </div>
+
+      <a href="index.html" class="btn btn-back">← Back to Home</a>
+      <hr class="section-divider" />
+    </main>
+
+    <footer>
+      <p>© 2025 Hopeful Gut. All rights reserved.</p>
+    </footer>
+
+    <script>
+      function toggleMenu() {
+        document.getElementById("navbar").classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>
